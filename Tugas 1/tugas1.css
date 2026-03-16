@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    padding-left: 10px;
+    border-collapse: separate; 
+}
+
+table.about{
+    padding-left: 10px;
+    border-collapse: separate; 
+    border-spacing: 0 20px;
+}
+
+table th {
+    text-align: left;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+img{
+    border-radius: 10px;
+}
+
+form{
+    padding: 15px;
+    border-radius: 8px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #090909;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; 
+}
+
+section.satu{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+section.dua{
+    background-color: #D2B48C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+a.satu{
+    color: white;
+    text-decoration: none;
+}
+
+a.satu:hover{
+    background-color: white;
+    color: #7B4B36 ;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+.gambar {
+    padding-right: 13px;
+}
+
+nav.satu{
+    background-color: #7B4B36;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.text{
+    flex: 1;
+    padding-right: 20px;
+
+}
+
+.info-grid{
+    display: grid;
+    grid-template-columns: 100px 1fr; /* Kolom label dan kolom isi */
+    gap: 15px;
+    margin: 20px 0;
+}
+
+footer{
+    background-color: #3f3f2c;
+    color: #e0e0e0;
+}
+
+footer.satu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: auto;
+}
+
+
+div.dua{
+    background-color: #E2725B;
+    color: white;
+    width: 60%;
+    height: 350px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+div.contact{
+    background-color: #E2725B;
+    color: white;
+    width: 30%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+div.contact2{
+    color: black;
+    width: 70%;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+
+.skills{
+    background-color: bisque;
+    padding: 50px;
+    max-width: 1500px;
+    margin:auto;
+}
+
+
